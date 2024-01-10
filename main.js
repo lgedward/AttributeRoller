@@ -1,3 +1,5 @@
+// STUDENT ID lgedward
+
 const defaultAttributeScores = [15, 14, 13, 12, 10, 8];
 
 class Player {
@@ -45,6 +47,7 @@ player02.printPlayer();
 // Fisher-Yates algorithm for randomly sorting an array
 // from: https://dev.to/codebubb/how-to-shuffle-an-array-in-javascript-2ikj
 // adapted to JS and reconfigured to return a new (non-mutated) array
+
 function shuffleArray(targetArray) {
     let shuffled = Array.from(targetArray);
     for (let i = shuffled.length - 1; i > 0; i--) {
